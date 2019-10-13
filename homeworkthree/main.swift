@@ -8,5 +8,21 @@
 
 import Foundation
 
-print("Hello, World!")
+struct Car {
+    var brand: String
+    var year: Int
+    var volume: Int
+    var isStartEngine: Bool
+    var isOpenWindows: Bool
+    var currentVolume: Int
+}
+
+struct Truck {
+    var brand: String
+    var year: Int
+    var volume: Int
+    var isStartEngine: Bool
+    var isOpenWindows: Bool
+    var currentVolume: Int
+}
 
